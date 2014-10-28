@@ -42,7 +42,7 @@ a.logo:before {
 	font-size: 2.25em;
 	line-height: 1;
 	float: left;
-	font-style: normal;
+	font-style: italic;
 	letter-spacing: 0;
 	text-transform: none;
 }
@@ -73,6 +73,11 @@ a.logo:before {
 	margin-left: 5px;
 }
 
+.top-navigation .social a:hover {
+	color: yellow;
+
+}
+
 .top-navigation  .card-stack {
 	font-size: 10px;
 }
@@ -81,6 +86,7 @@ a.logo:before {
 	font-style: italic;
 	font-weight: 200;
 	font-size: 1.20em;
+	text-decoration: none;
 }
 
 .top-navigation .links .social {
@@ -93,26 +99,6 @@ section {
 overflow: hidden; */
 }
 
-
-.grid {
-  width: 100%;
-  color: white;
-  margin-top: 8.3em;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-
-[class*="-col"] {
-    position: relative;
-	overflow: hidden; 
-	float: left;
-  	margin-right: 1.5%;
-}
-
-[class*="-col"]:last-child {
-  margin-right: 0;
-}
 
 .guide {
 	margin-left: 1.5%;
@@ -190,12 +176,22 @@ overflow: hidden; */
 	color: #aaa;
     margin-left: 0;
     margin-right: 0;
+}
+
+.guide-body a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+.guide-body a:hover {
+	color: yellow;
 
 }
 
+
 .page {
 	margin-left: 3.0%;
-	height: 700px;
+	/* height: 700px; */
 	width: 800px;
 	background-color: white;
 }
@@ -211,10 +207,14 @@ overflow: hidden; */
 
 }
 
-.page h1 {
+.page-contents {
 	margin-top: 3em;
-	margin-left: 6em;
-	margin-right: 6em;
+	margin-right: 5em;
+	margin-bottom:3em;
+	margin-left: 5em;
+}
+
+.page h1 {
 	font-family: sans-serif;
 	font-weight: 800;
 	font-size: 1.5em;
@@ -223,10 +223,10 @@ overflow: hidden; */
 	text-align: left;
 }
 
+
+
 .page p {
-	margin-top: 3em;
-	margin-left: 5em;
-	margin-right: 6em;
+	margin-top: 2em;
 	display: block;
 	line-height: 1.55em;
 	color: #5e605f;
@@ -234,58 +234,38 @@ overflow: hidden; */
 }
 
 .mars-photo {
-	float:left;
-	width: 25px;
-}
-
-
-
-
-.one-col {
-  width: 6.958%;
+	float:right;
+	width: 240px;
+	border: solid 1px #ddd;
+	padding: 7px;
+	margin-left: 1em;
 
 }
 
-.two-col {
-  width: 15.41%;
+.page-footer a > .active {
+	color: red;
+	font-weight: 200;
 }
 
-.three-col {
-  width: 23.87%;
+.page-footer li {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
+
 }
 
-.four-col {
-  width: 32.33%;
+.page-footer li .social{
+
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+	border-radius: 10px;
 }
 
-.five-col {
-  width: 40.79%;
+.page-footer .social a:hover {
+	color: blue;
+
 }
 
-.six-col {
-  width: 49.25%;
-}
 
-.seven-col {
-  width: 57.70%;
-}
-
-.eight-col {
-}
-
-.nine-col {
-  width: 74.62%;
-}
-
-.ten-col {
-  width: 83.08%;
-}
-
-.eleven-col {
-  width: 91.54%;
-}
-
-.twelve-col {
-  width: 100%;
-}
 

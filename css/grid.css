@@ -1,0 +1,75 @@
+
+.grid {
+  width: 100%;
+  color: white;
+  margin-top: 8.3em;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+[class*="-col"] {
+    position: relative;
+	overflow: hidden; 
+	float: left;
+  	margin-right: 1.5%;
+}
+
+[class*="-col"]:last-child {
+  margin-right: 0;
+}
+
+.one-col {
+  width: 6.958%;
+
+}
+
+.two-col {
+  width: 15.41%;
+}
+
+.three-col {
+  width: 23.87%;
+}
+
+.four-col {
+  width: 32.33%;
+}
+
+.five-col {
+  width: 40.79%;
+}
+
+.six-col {
+  width: 49.25%;
+}
+
+.seven-col {
+  width: 57.70%;
+}
+
+.eight-col {
+  width: 67.66%;
+}
+
+.nine-col {
+  width: 74.62%;
+}
+
+.ten-col {
+  width: 83.08%;
+}
+
+.eleven-col {
+  width: 91.54%;
+}
+
+.twelve-col {
+  width: 100%;
+}
+
+
+
+
+
+
